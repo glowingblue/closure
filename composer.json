@@ -22,6 +22,9 @@
         "nesbot/carbon": "*",
         "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
     },
+    "replace": {
+        "opis/closure": "*"
+    },
     "autoload": {
         "psr-4": {
             "Opis\\Closure\\": "src/"
